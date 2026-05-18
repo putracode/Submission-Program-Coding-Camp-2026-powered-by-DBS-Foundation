@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    /* border: 1px solid black; */
+}
+
+header {
+    background-color: #c490d1;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.inputSection {
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    color: #c490d1;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#bookForm {
+    margin-top: 15px;
+    width: 100%;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #c490d1;
+    font-size: 0.9rem;
+}
+
+input {
+    padding: 8px 15px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+#bookFormSubmit {
+    margin-top: 10px;
+    background-color: #c490d1;
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+}
+
+#bookFormSubmit span {
+    font-weight: bold;
+}
+
+.searchSection {
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    color: #c490d1;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 20px;
+    gap: 20px;
+    font-weight: 600;
+}
+
+#searchSubmit {
+    border: none;
+    padding: 8px 25px;
+    border-radius: 10px;
+    background-color: #c490d1;
+    color: white;
+    cursor: pointer;
+}
+
+
+.bookSelfSection {
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    color: #c490d1;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.bookItem {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+    margin-top: 25px;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    border-left: 5px solid #c490d1;
+}
+
+.completeButton {
+    border: none;
+    box-shadow: 1px 1px #c490d1;
+    font-weight: 500;
+    padding: 10px 5px;
+    border-radius: 5px;
+    background-color: #88b04b;
+    cursor: pointer;
+    color: white;
+}
+
+.deleteButton {
+    border: none;
+    box-shadow: 1px 1px #c490d1;
+    font-weight: 500;
+    color: white;
+    padding: 10px 5px;
+    border-radius: 5px;
+    background-color: #e57373;
+    cursor: pointer;
+    color: white;
+}
+
+.editButton {
+    border: none;
+    box-shadow: 1px 1px #c490d1;
+    font-weight: 500;
+    padding: 10px 5px;
+    border-radius: 5px;
+    background-color: #5ba4cf;
+    cursor: pointer;
+    color: white;
+}
+
+#bookFormCancel{
+    padding: 5px 10px;
+    float: right;
+    background-color: #e57373;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.BookList {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.card {
+    width: 100%;
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c490d1;
+    color: white;
+    padding: 10px 0;
+    font-weight: 500;
+}
