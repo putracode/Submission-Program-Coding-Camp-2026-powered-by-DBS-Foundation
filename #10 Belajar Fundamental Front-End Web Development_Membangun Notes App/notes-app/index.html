@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CatatanKu</title>
+    <link rel="stylesheet" href="./src/styles/style.css" />
+  </head>
+  <body>
+    <header>
+      <app-bar></app-bar>
+    </header>
+
+    <main class="container">
+      <section class="form-section">
+        <note-form></note-form>
+      </section>
+
+
+
+      <section class="notes-section">
+        <h2 class="section-title">Catatan Aktif</h2>
+        <div id="activeEmptyState" class="empty-state" style="display: none">
+          Tidak ada catatan aktif,
+
+        </div>
+        <note-list id="activeNoteList"></note-list>
+      </section>
+
+      <section class="notes-section">
+        <h2 class="section-title">Arsip Catatan</h2>
+        <div id="archivedEmptyState" class="empty-state" style="display: none">
+          Tidak ada catatan di arsip.
+        </div>
+        <note-list id="archivedNoteList"></note-list>
+      </section>
+    </main>
+
+    <footer>
+      <footer-bar></footer-bar>
+    </footer>
+
+    <script type="module" src="./src/app.js"></script>
+  </body>
+</html>
